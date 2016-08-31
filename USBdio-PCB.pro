@@ -1,4 +1,4 @@
-update=Sun 28 Aug 2016 07:51:57 PM EDT
+update=Tue 30 Aug 2016 08:09:55 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,5 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=Arduino Nano/arduino
-LibName31=USBdio-PCB
+LibName30=Libraries/arduino
