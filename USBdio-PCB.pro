@@ -1,4 +1,4 @@
-update=Tue 30 Aug 2016 08:09:55 PM EDT
+update=10/24/2016 9:44:21 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=Libraries/arduino
+LibName31=USBdio-PCB
