@@ -737,21 +737,21 @@ Text Notes 1300 2800 2    60   ~ 0
 DI6
 Text Notes 1300 2900 2    60   ~ 0
 DI7
-Text Notes 1300 3000 2    60   ~ 0
-DO4
-Text Notes 1300 3100 2    60   ~ 0
-DO5
-Text Notes 1300 3200 2    60   ~ 0
-DO6
-Text Notes 1300 3300 2    60   ~ 0
-DO7
-Text Notes 1300 2500 2    60   ~ 0
-GND
-Text Notes 1300 2400 2    60   ~ 0
-GND
 Text Notes 1300 2200 2    60   ~ 0
-V_BATT
+DO4
 Text Notes 1300 2300 2    60   ~ 0
+DO5
+Text Notes 1300 2400 2    60   ~ 0
+DO6
+Text Notes 1300 2500 2    60   ~ 0
+DO7
+Text Notes 1300 3300 2    60   ~ 0
+GND
+Text Notes 1300 3200 2    60   ~ 0
+GND
+Text Notes 1300 3000 2    60   ~ 0
+V_BATT
+Text Notes 1300 3100 2    60   ~ 0
 V_BATT
 $Comp
 L GND #PWR04
@@ -832,13 +832,13 @@ Text GLabel 1750 1950 2    60   Input ~ 0
 RLY2
 Text GLabel 1750 2050 2    60   Input ~ 0
 RLY3
-Text GLabel 1750 2950 2    60   Input ~ 0
+Text GLabel 1750 2150 2    60   Input ~ 0
 RLY4
-Text GLabel 1750 3050 2    60   Input ~ 0
+Text GLabel 1750 2250 2    60   Input ~ 0
 RLY5
-Text GLabel 1750 3150 2    60   Input ~ 0
+Text GLabel 1750 2350 2    60   Input ~ 0
 RLY6
-Text GLabel 1750 3250 2    60   Input ~ 0
+Text GLabel 1750 2450 2    60   Input ~ 0
 RLY7
 Wire Wire Line
 	3100 1700 3100 6950
@@ -911,13 +911,13 @@ Wire Wire Line
 	3100 6950 3300 6950
 Connection ~ 3100 6350
 Wire Wire Line
-	2250 5400 3300 5400
+	2050 5400 3300 5400
 Wire Wire Line
-	2200 6000 3300 6000
+	2000 6000 3300 6000
 Wire Wire Line
-	2150 6600 3300 6600
+	1950 6600 3300 6600
 Wire Wire Line
-	2100 7200 3300 7200
+	1900 7200 3300 7200
 Wire Wire Line
 	3900 2600 3900 2450
 Wire Wire Line
@@ -1200,7 +1200,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 600  2100 600 
 Wire Wire Line
-	2100 600  2100 2250
+	2100 600  2100 2950
 Connection ~ 2100 950 
 Wire Wire Line
 	9100 900  9050 900 
@@ -1254,34 +1254,28 @@ Wire Wire Line
 Wire Wire Line
 	2300 4800 3300 4800
 Wire Wire Line
-	1750 2550 2250 2550
+	1750 2550 2050 2550
 Wire Wire Line
-	2250 2550 2250 5400
+	2050 2550 2050 5400
 Wire Wire Line
-	2200 6000 2200 2650
+	2000 6000 2000 2650
 Wire Wire Line
-	2200 2650 1750 2650
+	2000 2650 1750 2650
 Wire Wire Line
-	1750 2750 2150 2750
+	1750 2750 1950 2750
 Wire Wire Line
-	2150 2750 2150 6600
+	1950 2750 1950 6600
 Wire Wire Line
-	2100 7200 2100 2850
+	1900 7200 1900 2850
 Wire Wire Line
-	2100 2850 1750 2850
+	1900 2850 1750 2850
 Wire Wire Line
 	2750 2450 2750 2700
-Wire Wire Line
-	1750 2450 2750 2450
 Connection ~ 2750 2600
 Wire Wire Line
 	1750 1050 2200 1050
 Wire Wire Line
-	2200 1050 2200 2450
-Connection ~ 2200 2450
-Wire Wire Line
-	1750 2350 2200 2350
-Connection ~ 2200 2350
+	2200 1050 2200 3150
 Wire Wire Line
 	1750 1150 2200 1150
 Connection ~ 2200 1150
@@ -1316,11 +1310,6 @@ Wire Wire Line
 Wire Wire Line
 	2750 1550 2750 950 
 Connection ~ 2750 950 
-Wire Wire Line
-	2100 2250 1750 2250
-Wire Wire Line
-	1750 2150 2100 2150
-Connection ~ 2100 2150
 $Comp
 L RELAY_(JSM1A-12V-4) P7
 U 1 1 581315B5
@@ -1432,4 +1421,18 @@ Wire Wire Line
 	7300 4750 7350 4750
 Wire Wire Line
 	7350 5450 7350 4850
+Wire Wire Line
+	2100 2950 1750 2950
+Wire Wire Line
+	1750 3050 1800 3050
+Wire Wire Line
+	1800 3050 1800 2950
+Connection ~ 1800 2950
+Wire Wire Line
+	2200 3150 1750 3150
+Wire Wire Line
+	1750 3250 1800 3250
+Wire Wire Line
+	1800 3250 1800 3150
+Connection ~ 1800 3150
 $EndSCHEMATC
