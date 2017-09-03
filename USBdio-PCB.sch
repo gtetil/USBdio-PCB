@@ -30,8 +30,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:arduino
 LIBS:USBdio-PCB
-LIBS:CH340G
-LIBS:rpi-shutdown-pcb-cache
 LIBS:USBdio-PCB-cache
 EELAYER 25 0
 EELAYER END
@@ -631,7 +629,7 @@ L R R28
 U 1 1 581083D1
 P 7450 4350
 F 0 "R28" V 7350 4350 50  0000 C CNN
-F 1 "10k" V 7450 4350 50  0000 C CNN
+F 1 "1k" V 7450 4350 50  0000 C CNN
 F 2 "USBdio-PCB:R_1206_HandSoldering_(narrow)" V 7380 4350 50  0001 C CNN
 F 3 "" H 7450 4350 50  0000 C CNN
 	1    7450 4350
@@ -1262,9 +1260,9 @@ Wire Wire Line
 	5900 2000 5900 1900
 Wire Wire Line
 	5900 1900 6300 1900
-Text GLabel 6300 1300 0    60   Input ~ 0
-TXD
 Text GLabel 6300 1400 0    60   Input ~ 0
+TXD
+Text GLabel 6300 1300 0    60   Input ~ 0
 RXD
 Text GLabel 6300 1600 0    60   Input ~ 0
 D+
